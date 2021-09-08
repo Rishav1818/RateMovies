@@ -8,7 +8,7 @@ form.addEventListener("submit", async function (e) {
     console.log(res.data);
     console.log(res.data.length);
     if (res.data.length==0) {
-        document.getElementById("displayresult").innerHTML=`<div class="mt-5"><center><h4>No Content Found!!</h4></center></div>`;
+        document.getElementById("displayresult").innerHTML=`<div class="mt-5"><center><h4 style="font-weight:800;">No Content Found!!</h4></center></div>`;
     }else{
     let content = "";
     for (let i = 0; i < res.data.length; i++) {
